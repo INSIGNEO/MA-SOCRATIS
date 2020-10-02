@@ -2,5 +2,14 @@ ITK v5,
 VTK,
 cmake,
 Opencv,
-Install the code in Riciam_MM folder by: ),
+Install the code in RiciamMM folder
+
+( 
+by: 
+cd build
+cmake ..
+make install .
+cmake ..
+),
+
 https://github.com/hyperrealm/libconfig/blob/master/INSTALL
