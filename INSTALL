@@ -20,11 +20,11 @@ STEP 2:
 
 - Install the Initial segmentation code
   
-  cd ../Initial_segmentation
+  cd ../Initial_Segmentation
 
   pip install .
 
-  cd keras-contrib
+  cd keras-contrib-master
 
   pip install .
 
@@ -42,4 +42,4 @@ STEP 3:
 
 STEP 4:
 
-ENJOY ;)
+- ENJOY ;)
