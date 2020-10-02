@@ -22,8 +22,13 @@ cd ../Initial_segmentation
 
 pip install .
 
-INSTALLED
+cd keras_contrib
 
+pip install .
+
+cd ../deep_belief
+
+pip install .
 
 STEP 3:
 
