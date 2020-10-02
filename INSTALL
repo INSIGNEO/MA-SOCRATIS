@@ -1,6 +1,10 @@
 INSTALLATION STEPS
 
-FOR THE AI-SOCT:
+STEP 1 :
+Install the Dependences of AI-SOCT
+
+STEP 2:
+Install  AI-SOCT
 
 cd /to_src
 
@@ -20,10 +24,15 @@ pip install .
 
 INSTALLED
 
+
+STEP 3:
+
+RUN your simulation
+
 cd ../test
 
 ./auto_segm ../Atlas.cfg 
 
-RUN
+STEP 4:
 
 ENJOY ;)
