@@ -1,9 +1,5 @@
-ITK,
+ITK (copy past the code in RGMM folder and after install ITK v5),
 VTK,
 cmake,
-Caffe,
-Tenshorflow,
-Keras,
 Opencv,
-ITK(rician)
 https://github.com/hyperrealm/libconfig/blob/master/INSTALL
