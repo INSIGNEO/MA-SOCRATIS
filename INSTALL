@@ -1,42 +1,44 @@
 INSTALLATION STEPS
 
 STEP 1 :
-Install the Dependences of AI-SOCT
+- Install the Dependences of AI-SOCT
 
 STEP 2:
-Install  AI-SOCT
+- Install  AI-SOCT main core
 
-cd /to_src
+  cd /to_src
 
-mkdir build
+  mkdir build
 
-cd build
+  cd build
 
-cmake ..
+  cmake ..
 
-make install .
+  make install .
 
-cmake ..
+  cmake ..
 
-cd ../Initial_segmentation
+- Install the Initial segmentation code
+  
+  cd ../Initial_segmentation
 
-pip install .
+  pip install .
 
-cd keras_contrib
+  cd keras-contrib
 
-pip install .
+  pip install .
 
-cd ../deep_belief
+  cd ../deep-belief-network-master
 
-pip install .
+  pip install .
 
 STEP 3:
 
-RUN your simulation
+- RUN your simulation
 
-cd ../test
+  cd ../test
 
-./auto_segm ../Atlas.cfg 
+  ./auto_segm ../Atlas.cfg 
 
 STEP 4:
 
