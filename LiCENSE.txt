@@ -1,4 +1,6 @@
 Copyright (c) 2009-2013 ConsortiumOfANTS
+Copyright (c) 20017-2020 michail mamalakis
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
