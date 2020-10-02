@@ -1,8 +1,29 @@
+INSTALLATION STEPS
+
+FOR THE AI-SOCT:
+
 cd /to_src
+
 mkdir build
+
 cd build
-cmake ..
-make install .
+
 cmake ..
 
-READY
+make install .
+
+cmake ..
+
+cd ../Initial_segmentation
+
+pip install .
+
+INSTALLED
+
+cd ../test
+
+./auto_segm ../Atlas.cfg 
+
+RUN
+
+ENJOY ;)
