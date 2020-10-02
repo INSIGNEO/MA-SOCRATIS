@@ -1,9 +1,9 @@
-ITK v5,
-VTK,
-cmake,
-Opencv,
-Install the code in RiciamMM folder
+ITK == v5.0.1,
+VTK == v8.2,
+cmake >=13.3,
+Opencv >= 3.4.1,
 
+Install the code in RiciamMM folder
 ( 
 by: 
 cd build
