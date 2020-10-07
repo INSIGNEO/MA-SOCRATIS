@@ -18,7 +18,28 @@ STEP 2:
 
   cmake ..
 
-- Install the Initial segmentation code
+STEP 2:
+
+- RUN your simulation
+
+  cd ../test
+
+  ./auto_segm ../Atlas.cfg 
+
+STEP 3:
+
+- ENJOY ;)
+
+
+
+
+
+
+TIP:
+
+MANUALLY INSTALLATION OF PYTHON DL CODE
+
+- If there is an issue with the python code then try to install the Initial segmentation code manually by:
   
   cd ../Initial_Segmentation
 
@@ -32,14 +53,4 @@ STEP 2:
 
   pip install .
 
-STEP 3:
 
-- RUN your simulation
-
-  cd ../test
-
-  ./auto_segm ../Atlas.cfg 
-
-STEP 4:
-
-- ENJOY ;)
